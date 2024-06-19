@@ -3,7 +3,7 @@ module earthly/example-go
 go 1.19
 
 require (
-	github.com/sirupsen/logrus v1.9.0
+	github.com/sirupsen/logrus v1.9.3
 	golang.org/x/exp v0.0.0-20230206171751-46f607a40771
 )
 
