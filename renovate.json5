@@ -15,4 +15,9 @@
       "matchCategories": ["python"]
     }
   ],
+  "postUpgradeTasks": {
+    "commands": ["bash upstream-chart-info/update-upstream-helm-chart-info.sh {{{datasource}}} {{{packageName}}} {{{newVersion}}}"],
+    fileFilters: ["**/*"], // commit EVERY file that changed (in any subdirectory)
+    "executionMode": "update"
+  },
 }
