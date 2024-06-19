@@ -8,5 +8,11 @@
   "labels": [
     "dependencies",
     "depManager:{{{manager}}}"
-  ]
+  ],
+  "packageRules": [
+    {
+      "groupName": "all-things-python",
+      "matchCategories": ["python"]
+    }
+  ],
 }
